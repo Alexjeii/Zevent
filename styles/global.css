@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root {
+    --primary-color : rgba(32,32,32,1);
+    --secondary-color : rgba(112,208,56,1);
+    --tertiary-color : rgba(255, 255, 255, 1);
+    --light-gray: rgba(255,255,255,0.2);
+    --dark-color: rgb(16, 16, 16);
+    --extra-black:rgba(0,0,0,1);
+    --main-text:'Quicksand', sans-serif;
+    --title-text: 'Caveat', cursive;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    font-family: var(--main-text);
+}
